@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+section {
+  background-image: url('../../public/images/unsplash_Y-Xu1Z2OG_I.png');
+  background-position:center ; 
+  background-size: contain;
+  background-repeat: no-repeat;
+}
