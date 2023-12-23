@@ -1,5 +1,6 @@
 import HeaderNav from '@/components/HeaderNav'
 import Section from '@/components/Section';
+import Speakers from '@/components/Speakers';
 import { Inter } from 'next/font/google'
 
 import { Fragment } from "react";
@@ -11,6 +12,7 @@ export default function Home() {
    <Fragment>
     <HeaderNav/>
     <Section/>
+    <Speakers/>
    </Fragment>
   )
 }

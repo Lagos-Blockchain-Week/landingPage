@@ -13,6 +13,7 @@ module.exports = {
       black: "rgba(4, 5, 15, 0.40)",
       brown: '#645D5D',
       white: '#ffffff',
+      blue: '#5CB7FE',
      
     },
     screens: {

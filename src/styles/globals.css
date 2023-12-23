@@ -32,3 +32,11 @@ section {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.box {
+  border-radius: 16px;
+border: 1px solid var(--Gradient-blue, #5CB7FE);
+background: radial-gradient(670.19% 154.81% at 100% 0%, rgba(31, 42, 69, 0.50) 0%, rgba(44, 55, 84, 0.26) 68.11%, rgba(2, 12, 37, 0.15) 100%);
+box-shadow: 16px 4px 44px 0px rgba(9, 41, 87, 0.10) inset;
+backdrop-filter: blur(2px);
+}

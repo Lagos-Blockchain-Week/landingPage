@@ -12,7 +12,7 @@ function HeaderNav() {
       <p>Speaker</p>
       <p>Sponsors</p>
       <p>Volunteer</p>
-      <p className="ml-[64px] py-5 px-12 text-black text-xl font-bold  bg-white rounded">Sponsor Us</p>
+      <p className="ml-[64px] py-5 px-12 text-[#000000] text-xl font-bold  bg-white rounded">Sponsor Us</p>
       </div>
       <img  src="./images/icons/icons8-hamburger.svg"
             className="bg-white w-6  cursor-pointer lg:hidden block my-auto"
