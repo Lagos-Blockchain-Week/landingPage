@@ -6,13 +6,13 @@ function Section() {
     <Fragment>
         {/* section1 */}
       <section className=" lg:mx-[50px] mx-4 flex flex-col gap-y-3 py-16">
-        <p className="font-bold text-[80px]">Lagos</p>
-        <p className="font-bold text-[80px]">Blockchain Week</p>
-        <p className="font-bold text-[30px]">4-10 April, 2024</p>
+        <p className="font-bold text-[50px] md:text-[80px]">Lagos</p>
+        <p className="font-bold text-[0px]  md:text-[80px]">Blockchain Week</p>
+        <p className="font-bold  md:text-[30px]">4-10 April, 2024</p>
         <p>5 Days of learning, building and having fun</p>
         <p>The Zone park, Gbagada</p>
-        <p className="py-5 px-12 text-[#000000] text-xl font-bold  bg-white rounded w-[300px]">
-          Add to calender
+        <p className="py-5 px-12 text-[#000000] text-xl font-bold   bg-white rounded text-center w-[250px] md:w-[300px]">
+          Add to   calender
         </p>
       </section>
 

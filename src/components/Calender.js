@@ -16,7 +16,7 @@ function Calender() {
 </div>
 < img className= " h-[300px] w-[400px]" src="./images/section background.png"/>
 </div >
-      <p className="py-5 px-12 text-[#000000] text-xl font-bold  bg-white rounded w-[300px] self-center mt-[88px]">
+      <p className="py-5 px-12 text-[#000000] text-xl font-bold  bg-white rounded text-center w-[250px] md:w-[300px] self-center mt-[88px]">
         Add To Calender
       </p>
       

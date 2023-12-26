@@ -34,7 +34,7 @@ function Sponsor() {
         
       </div>
 
-      <p className="py-5 px-12 text-[#000000] text-xl font-bold  bg-white rounded w-[300px] self-center mt-[88px]">
+      <p className="py-5 px-12 text-[#000000] text-xl font-bold  bg-white rounded text-center w-[250px] md:w-[300px] self-center mt-[88px]">
         Become a Sponsor
         </p>
     </div>

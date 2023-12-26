@@ -13,7 +13,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
+    
     <Fragment>
+      <title>Lagos BlockChain Week</title>
       <HeaderNav />
       <Section />
       <Speakers />
