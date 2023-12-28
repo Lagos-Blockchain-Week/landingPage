@@ -7,28 +7,28 @@ function Sponsor() {
       <div className="sponsor mt-6">
         <div className=" grid grid-cols-7 grid-rows-3 justify-between gap-4 p-8">
           <img  src="./images/sponsors icon/sponsor1.png" />
-          <img src="./images/sponsors icon/sponsor1.png" />
-          <img  src="./images/sponsors icon/sponsor1.png" />
-          <img  src="./images/sponsors icon/sponsor1.png" />
-          <img  src="./images/sponsors icon/sponsor1.png" />
-          <img  src="./images/sponsors icon/sponsor1.png" />
-          <img  src="./images/sponsors icon/sponsor1.png" />
+          <img src="./images/sponsors icon/sponsor2.png" />
+          <img  src="./images/sponsors icon/sponsor3.png" />
+          <img  src="./images/sponsors icon/sponsor4.png" />
+          <img  src="./images/sponsors icon/sponsor5.png" />
+          <img  src="./images/sponsors icon/sponsor6.png" />
+          <img  src="./images/sponsors icon/sponsor7.png" />
 
-          <img src="./images/sponsors icon/sponsor1.png" />
-          <img src="./images/sponsors icon/sponsor1.png" />
-          <img src="./images/sponsors icon/sponsor1.png" />
-          <img src="./images/sponsors icon/sponsor1.png" />
-          <img src="./images/sponsors icon/sponsor1.png" />
-          <img src="./images/sponsors icon/sponsor1.png" />
+          <img src="./images/sponsors icon/sponsor8.png" />
+          <img src="./images/sponsors icon/sponsor4.png" />
+          <img src="./images/sponsors icon/sponsor5.png" />
+          <img src="./images/sponsors icon/sponsor6.png" />
+          <img src="./images/sponsors icon/sponsor3.png" />
+          <img src="./images/sponsors icon/sponsor2.png" />
           <img src="./images/sponsors icon/sponsor1.png" />
 
+          <img src="./images/sponsors icon/sponsor7.png" />
+          <img src="./images/sponsors icon/sponsor8.png" />
           <img src="./images/sponsors icon/sponsor1.png" />
-          <img src="./images/sponsors icon/sponsor1.png" />
-          <img src="./images/sponsors icon/sponsor1.png" />
-          <img src="./images/sponsors icon/sponsor1.png" />
-          <img src="./images/sponsors icon/sponsor1.png" />
-          <img src="./images/sponsors icon/sponsor1.png" />
-          <img src="./images/sponsors icon/sponsor1.png" />
+          <img src="./images/sponsors icon/sponsor2.png" />
+          <img src="./images/sponsors icon/sponsor4.png" />
+          <img src="./images/sponsors icon/sponsor5.png" />
+          <img src="./images/sponsors icon/sponsor6.png" />
         </div>
 
         

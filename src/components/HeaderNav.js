@@ -1,17 +1,17 @@
 
 import Link from "next/link";
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 function HeaderNav() {
-  const [open, setOpen] = useState(false);
+ 
 
   const openNav = () => {
     document.getElementById("mySidenav").style.width = "100%";
-    setOpen(true);
+  
   };
   const closeNav = () => {
     document.getElementById("mySidenav").style.width = "0%";
-    setOpen(false);
+  
   };
 
   return (

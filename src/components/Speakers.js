@@ -12,7 +12,43 @@ function Speakers() {
             </div>
 
             <div className='box flex w-[213px] flex-col justify-center items-center gap-2 p-4'>
-                <img src='./images/speakers/speaker1.png'/>
+                <img src='./images/speakers/speaker2.png'/>
+                <p>Harry Clinton</p>
+                <p>Meta DOA</p>
+            </div>
+
+            <div className='box flex w-[213px] flex-col justify-center items-center gap-2 p-4'>
+                <img src='./images/speakers/speaker3.png'/>
+                <p>Harry Clinton</p>
+                <p>Meta DOA</p>
+            </div>
+
+            <div className='box flex w-[213px] flex-col justify-center items-center gap-2 p-4'>
+                <img src='./images/speakers/speaker2.png'/>
+                <p>Harry Clinton</p>
+                <p>Meta DOA</p>
+            </div>
+
+            <div className='box flex w-[213px] flex-col justify-center items-center gap-2 p-4'>
+                <img src='./images/speakers/speaker4.png'/>
+                <p>Harry Clinton</p>
+                <p>Meta DOA</p>
+            </div>
+
+            <div className='box flex w-[213px] flex-col justify-center items-center gap-2 p-4'>
+                <img src='./images/speakers/speaker5.png'/>
+                <p>Harry Clinton</p>
+                <p>Meta DOA</p>
+            </div>
+
+            <div className='box flex w-[213px] flex-col justify-center items-center gap-2 p-4'>
+                <img src='./images/speakers/speaker4.png'/>
+                <p>Harry Clinton</p>
+                <p>Meta DOA</p>
+            </div>
+
+            <div className='box flex w-[213px] flex-col justify-center items-center gap-2 p-4'>
+                <img src='./images/speakers/speaker6.png'/>
                 <p>Harry Clinton</p>
                 <p>Meta DOA</p>
             </div>
@@ -24,43 +60,7 @@ function Speakers() {
             </div>
 
             <div className='box flex w-[213px] flex-col justify-center items-center gap-2 p-4'>
-                <img src='./images/speakers/speaker1.png'/>
-                <p>Harry Clinton</p>
-                <p>Meta DOA</p>
-            </div>
-
-            <div className='box flex w-[213px] flex-col justify-center items-center gap-2 p-4'>
-                <img src='./images/speakers/speaker1.png'/>
-                <p>Harry Clinton</p>
-                <p>Meta DOA</p>
-            </div>
-
-            <div className='box flex w-[213px] flex-col justify-center items-center gap-2 p-4'>
-                <img src='./images/speakers/speaker1.png'/>
-                <p>Harry Clinton</p>
-                <p>Meta DOA</p>
-            </div>
-
-            <div className='box flex w-[213px] flex-col justify-center items-center gap-2 p-4'>
-                <img src='./images/speakers/speaker1.png'/>
-                <p>Harry Clinton</p>
-                <p>Meta DOA</p>
-            </div>
-
-            <div className='box flex w-[213px] flex-col justify-center items-center gap-2 p-4'>
-                <img src='./images/speakers/speaker1.png'/>
-                <p>Harry Clinton</p>
-                <p>Meta DOA</p>
-            </div>
-
-            <div className='box flex w-[213px] flex-col justify-center items-center gap-2 p-4'>
-                <img src='./images/speakers/speaker1.png'/>
-                <p>Harry Clinton</p>
-                <p>Meta DOA</p>
-            </div>
-
-            <div className='box flex w-[213px] flex-col justify-center items-center gap-2 p-4'>
-                <img src='./images/speakers/speaker1.png'/>
+                <img src='./images/speakers/speaker5.png'/>
                 <p>Harry Clinton</p>
                 <p>Meta DOA</p>
             </div>

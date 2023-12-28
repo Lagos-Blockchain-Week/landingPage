@@ -94,52 +94,52 @@ function Section() {
 <div className="flex justify-center flex-wrap gap-y-[60px] md:grid md:grid-rows-1 md:gap-x-[60px] md:grid-cols-6 mt-[60px]">
     <div></div>
           <div className="box flex flex-col p-8 gap-y-6 col-span-2 border-solid border-2 rounded border-blue px-4">
-            <p>Finance</p>
+            <p>Enterprise Blockchain</p>
             <img src="./images/line.png" />
             <div className="flex items-center">
               {" "}
-              <img src="./images/programs icons/icon1.png" />{" "}
-              <p className="pl-3">Custody</p>{" "}
+              <img src="./images/programs icons/icon9.png" />{" "}
+              <p className="pl-3">European Regulations</p>{" "}
             </div>
             <div className="flex items-center">
               {" "}
-              <img src="./images/programs icons/icon2.png" />{" "}
-              <p className="pl-3">Decentrilized Finance</p>{" "}
+              <img src="./images/programs icons/icon10.png" />{" "}
+              <p className="pl-3">Regulatory Trends</p>{" "}
             </div>
             <div className="flex items-center">
               {" "}
-              <img src="./images/programs icons/icon3.png" />{" "}
-              <p className="pl-3">Macro Trends & Investments</p>{" "}
+              <img src="./images/programs icons/icon11.png" />{" "}
+              <p className="pl-3">CBDCs</p>{" "}
             </div>
             <div className="flex items-center">
               {" "}
-              <img src="./images/programs icons/icon4.png" />{" "}
-              <p className="pl-3">Mass Adoption</p>{" "}
+              <img src="./images/programs icons/icon12.png" />{" "}
+              <p className="pl-3">AML (Anti Money Laundering)</p>{" "}
             </div>
           </div>
           
           <div className="box flex flex-col p-8 gap-y-6 col-span-2 border-solid border-2 rounded border-blue px-4 bg-gradient-to-br from-opacity-50 via-opacity-25 to-opacity-15" >
-            <p>Tech</p>
+            <p>Corporate Web3</p>
             <img src="./images/line.png" />
             <div className="flex items-center">
               {" "}
-              <img src="./images/programs icons/icon5.png" />{" "}
-              <p className="pl-3">Artificial Intelligence</p>{" "}
+              <img src="./images/programs icons/icon13.png" />{" "}
+              <p className="pl-3">Web3 & Luxury</p>{" "}
             </div>
             <div className="flex items-center">
               {" "}
-              <img src="./images/programs icons/icon6.png" />{" "}
-              <p className="pl-3">Scalability</p>{" "}
+              <img src="./images/programs icons/icon14.png" />{" "}
+              <p className="pl-3">Brands in Web3</p>{" "}
             </div>
             <div className="flex items-center">
               {" "}
-              <img src="./images/programs icons/icon7.png" />{" "}
-              <p className="pl-3">Interoperability</p>{" "}
+              <img src="./images/programs icons/icon15.png" />{" "}
+              <p className="pl-3">Creators Economy</p>{" "}
             </div>
             <div className="flex items-center">
               {" "}
-              <img src="./images/programs icons/icon8.png" />{" "}
-              <p className="pl-3">Data Management</p>{" "}
+              <img src="./images/programs icons/icon16.png" />{" "}
+              <p className="pl-3">NFT Gaming & Metaverse</p>{" "}
             </div>
           </div>
 
