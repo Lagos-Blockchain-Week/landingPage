@@ -22,6 +22,9 @@ module.exports = {
       lg: "1024px",
       xl: "1280px",
     },
+    gridTemplateRows: {
+      '15': 'repeat(15, minmax(0, 1fr))',
+    },
   },
   plugins: [],
 }

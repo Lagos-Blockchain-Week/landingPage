@@ -8,22 +8,24 @@ import Footer from "@/components/Footer";
 import { Inter } from "next/font/google";
 
 import { Fragment } from "react";
+import ProgramTrack from "@/components/ProgramTrack";
+import EventSchedule from "@/components/EventSchedule";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    
     <Fragment>
       <title>Lagos BlockChain Week</title>
       <HeaderNav />
       <Section />
+      <EventSchedule />
+      <ProgramTrack />
       <Speakers />
       <Sponsor />
       <Calender />
 
       <Footer />
- 
     </Fragment>
   );
 }
