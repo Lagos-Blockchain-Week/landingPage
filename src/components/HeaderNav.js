@@ -1,6 +1,8 @@
 
-import Link from "next/link";
+import {Link} from "react-scroll/modules"
 import React from "react";
+
+
 
 function HeaderNav() {
  
@@ -19,13 +21,15 @@ function HeaderNav() {
   
   {/* items-center justify-between edit this */}
       <div className="p-5 flex items-center justify-between w-[80%]  border-solid rounded border-white border-[1px]">
-      <p className="mr-[64px]">Blockchain Week</p>
+      <p className="mr-[64px] cursor-pointer">Blockchain Week</p>
       <div className="lg:flex hidden items-center gap-x-10">
-      <p>Schedule</p>
-      <p>Speaker</p>
-      <p>Sponsors</p>
-      <p>Volunteer</p>
-      <p className="ml-[64px] py-5 px-12 text-[#000000] text-xl font-bold  bg-white rounded">Sponsor Us</p>
+      <Link to="schedule" smooth={true} duration={500}>  <p className="cursor-pointer">Schedule</p> </Link>
+  <Link to="speaker" smooth={true} duration={500}>  <p className="cursor-pointer">Speaker</p></Link>
+      <Link to="sponsor" smooth={true} duration={500}>  <p className="cursor-pointer">Sponsors</p></Link>
+      <a href="https://bit.ly/Hack-LBW-2024" target="_blank">
+              <p className="my-5 text-base cursor-pointer">Hackathon</p>
+            </a>
+      <a href="https://bit.ly/LBW-BECOMEASPONSOR" target="_blank" className="cursor-pointer ml-[64px] py-5 px-12 text-[#000000] text-xl font-bold  bg-white rounded">Sponsor Us</a>
       </div>
       <img  
        onClick={() => openNav()}
@@ -43,26 +47,26 @@ function HeaderNav() {
               &times;
             </p>
             <div className="pt-20"></div>
-            <Link href={""}>
-              <p className="my-5 text-base">Schedule</p>
+            <Link to="schedule" smooth={true} duration={500}>
+              <p className="my-5 text-base cursor-pointer">Schedule</p>
             </Link>
 
-            <Link href={""}>
-              <p className="my-5 text-base">Speaker</p>
+            <Link to="speaker" smooth={true} duration={500}>
+              <p className="my-5 text-base cursor-pointer">Speaker</p>
             </Link>
 
-            <Link href={"/events"}>
-              <p className="my-5 text-base">Sponsors</p>
+            <Link to="sponsor" smooth={true} duration={500}>
+              <p className="my-5 text-base cursor-pointer">Sponsors</p>
             </Link>
 
-            <Link href={"/about_us"}>
-              <p className="my-5 text-base">Volunteer</p>
-            </Link>
+            <a href="https://bit.ly/Hack-LBW-2024" target="_blank">
+              <p className="my-5 text-base cursor-pointer">Hackathon</p>
+            </a>
 
-            <Link href={"/blog"}>
-            <p className="w-[205px] py-5 px-12 text-[#000000] text-xl font-bold  bg-white rounded">Sponsor Us</p>
+            <a href="https://bit.ly/LBW-BECOMEASPONSOR" target="_blank">
+            <p className="cursor-pointer w-[205px] py-5 px-12 text-[#000000] text-xl font-bold  bg-white rounded">Sponsor Us</p>
      
-            </Link>
+            </a>
           </div>
         </div>
       </div>

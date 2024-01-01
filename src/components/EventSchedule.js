@@ -4,8 +4,8 @@ import React from 'react'
 
 function EventSchedule() {
   return (
-    <div className='lg:mx-[50px] mx-4 mt-[100px] flex flex-col'>
-<p className='text-[20px]'>Event Schedule</p>
+    <div id='schedule' className='lg:mx-[50px] mx-4 mt-[100px] flex flex-col'>
+<p className='text-[30px] font-bold self-center '>Event Schedule</p>
 {/* grid grid-cols-4 grid-rows-15 */}
 <div className='grid grid-cols-4 grid-rows-15 box p-[10px] md:p-[40px] md:items-center justify-center overflow-y-auto mt-6'>
     <p className='border border-solid border-[#414141] border-x-0 border-t-0 py-[10px]  md:py-[24px] '>DAY</p>
