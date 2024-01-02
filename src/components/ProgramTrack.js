@@ -63,7 +63,7 @@ function ProgramTrack() {
             <div className="flex items-center">
               {" "}
               <img src="./images/programs icons/icon9.png" />{" "}
-              <p className="pl-3">European Regulations</p>{" "}
+              <p className="pl-3">Africa Regulations</p>{" "}
             </div>
             <div className="flex items-center">
               {" "}

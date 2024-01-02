@@ -10,7 +10,7 @@ function Calender() {
     <p className="mt-3">The blockchain week is  a ground breaking event that brings together industry pioneers, innovators, and enthusiasts to discuss and explore the immense potential of blockchain technology.</p>
     </div >
         <p>Creators Economy</p>
-        <p className="pl-6">European Regulations</p>
+        <p className="pl-6">Africa Regulations</p>
         <p className="pl-12">Decentralized Finance</p>
    
 </div>
