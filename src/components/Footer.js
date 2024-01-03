@@ -17,7 +17,7 @@ function Footer() {
         <p className="text-[#645D5D]">Invoice Generator</p>
         <p className="text-[#645D5D]">Resume Builder</p>
         <p className="text-[#645D5D]">NDAs</p> */}
-        <p className="text-[#645D5D]">Services</p>
+        <p className="text-white">Services</p>
       </div>
 
       <div className="flex flex-col">

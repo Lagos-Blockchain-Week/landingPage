@@ -7,7 +7,7 @@ function EventSchedule() {
     <div id='schedule' className='lg:mx-[50px] mx-4 mt-[100px] flex flex-col'>
 <p className='text-[30px] font-bold self-center '>Event Schedule</p>
 {/* grid grid-cols-4 grid-rows-15 */}
-<div className='grid grid-cols-4 grid-rows-15 box p-[10px] md:p-[40px] md:items-center justify-center overflow-y-auto mt-6'>
+<div className='grid grid-cols-4 grid-rows-8 box p-[10px] md:p-[40px] md:items-center justify-center overflow-y-auto mt-6'>
     <p className='border border-solid border-[#414141] border-x-0 border-t-0 py-[10px]  md:py-[24px] '>DAY</p>
     <p className= 'border border-[#414141]  border-t-0 col-span-2  pl-[10px] md:pl-[48px] py-[10px] md:py-[24px]'>  TOPIC</p>
     <p className=  ' border border-[#414141] border-x-0 border-t-0 pl-[10px] md:pl-[48px] py-[10px] md:py-[24px]'>SPEAKER</p>
