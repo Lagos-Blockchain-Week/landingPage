@@ -19,12 +19,12 @@ export default function Home() {
       <title>Lagos BlockChain Week</title>
       <HeaderNav />
       <Section />
-      <EventSchedule />
       <ProgramTrack />
       <Speakers />
+      
+      <EventSchedule />
       <Sponsor />
       <Calender />
-
       <Footer />
     </Fragment>
   );

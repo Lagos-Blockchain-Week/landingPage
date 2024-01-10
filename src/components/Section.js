@@ -5,13 +5,13 @@ function Section() {
   return (
     <Fragment>
       {/* section1 */}
-      <section className=" lg:mx-[50px] mx-4 flex flex-col gap-y-3 py-16">
-        <p className="font-bold text-[50px] md:text-[80px]">Lagos</p>
-        <p className="font-bold text-[0px]  md:text-[80px]">Blockchain Week</p>
-        <p className="font-bold  md:text-[30px]">5-13 April, 2024</p>
+      <section className=" lg:mx-[50px] mx-4 flex flex-col text-white gap-y-3 py-16">
+        <p className="font-bold text-[50px] leading-tight md:text-[100px]">Lagos <br /> Blockchain Week</p>
+        {/* <p className="font-bold text-[0px]  md:text-[80px]"></p> */}
+        <p className="font-bold  md:text-[50px]">5-13 April, 2024</p>
         <p>9 Days of learning, building and having fun</p>
         <p>Radisson Blu Hotel, Lagos Ikeja</p>
-        <p className="py-5 px-12 text-[#000000] text-xl font-bold   bg-white rounded text-center w-[250px] md:w-[300px]">
+        <p className="py-4 px-12 my-6 text-[#000000] bg-white rounded text-center w-[250px] md:w-[300px]">
           Add to calender
         </p>
       </section>
@@ -30,7 +30,7 @@ function Section() {
         </div>
       </div> */}
 
-     
+
     </Fragment>
   );
 }

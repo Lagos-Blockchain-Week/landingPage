@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="lg:mx-[50px] mx-4 my-[100px] flex flex-col items-center lg:items-start  lg:grid md:grid-rows-1 lg:grid-cols-5 gap-[40px]">
-      <p className="">BlockChain Week</p>
+      <p className="text-white">BlockChain Week</p>
        <div className="flex flex-col">
         {/*<p className="text-white">For Talents</p>
         <p className="text-[#645D5D]">Global Invoicing</p>
