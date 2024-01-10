@@ -20,7 +20,7 @@ function HeaderNav() {
     <header className="mt-[40px] flex justify-center   bg-black text-white">
 
       {/* items-center justify-between edit this */}
-      <div className="py-2 px-4 flex items-center justify-between w-[85%]  border-solid rounded-2xl border-white border-[1px]">
+      <div className="lg:py-2 py-4 px-4 flex items-center justify-between w-[85%]  border-solid rounded-2xl border-white border-[1px]">
         <p className="mr-[64px] cursor-pointer">Blockchain Week</p>
         <div className="lg:flex hidden items-center gap-x-8 text-sm">
           <Link to="schedule" smooth={true} duration={500}>

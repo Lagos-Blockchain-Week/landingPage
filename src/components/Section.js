@@ -5,7 +5,7 @@ function Section() {
   return (
     <Fragment>
       {/* section1 */}
-      <section className=" lg:mx-[50px] mx-4 flex flex-col text-white gap-y-3 py-16">
+      <section id="hero" className=" lg:mx-[50px] mx-4 flex flex-col text-white gap-y-3 py-16">
         <p className="font-bold text-[50px] leading-tight md:text-[100px]">Lagos <br /> Blockchain Week</p>
         {/* <p className="font-bold text-[0px]  md:text-[80px]"></p> */}
         <p className="font-bold  md:text-[50px]">5-13 April, 2024</p>
