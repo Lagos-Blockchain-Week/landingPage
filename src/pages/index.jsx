@@ -22,7 +22,7 @@ export default function Home() {
 
       <div className=" lg:mx-[50px] mx-4 mt-[100px] text-white flex flex-col">
         <p className="text-white text-[30px]">Join us at</p>
-        <img src="/images/location.png" className="rounded-md mt-4" alt="" />
+        <img src="./images/location.png" className="rounded-md mt-4" alt="" />
       </div>
       <ProgramTrack />
       {/* <Speakers /> */}
