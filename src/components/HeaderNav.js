@@ -26,21 +26,21 @@ function HeaderNav() {
           <Link to="schedule" smooth={true} duration={500}>
             <p className="cursor-pointer">Home</p>
           </Link>
-          <Link to="schedule" smooth={true} duration={500}>
-            <p className="cursor-pointer">Program</p>
-          </Link>
-          <Link to="schedule" smooth={true} duration={500}>
-            <p className="cursor-pointer">Event</p>
-          </Link>
+          // <Link to="schedule" smooth={true} duration={500}>
+          //   <p className="cursor-pointer">Program</p>
+          // </Link>
+          // <Link to="schedule" smooth={true} duration={500}>
+          //   <p className="cursor-pointer">Event</p>
+          // </Link>
           <Link to="schedule" smooth={true} duration={500}>
             <p className="cursor-pointer">Schedule</p>
           </Link>
           <Link to="speaker" smooth={true} duration={500}>
             <p className="cursor-pointer">Speaker</p>
           </Link>
-          <Link to="sponsor" smooth={true} duration={500}>
-            <p className="cursor-pointer">Sponsors</p>
-          </Link>
+          // <Link to="sponsor" smooth={true} duration={500}>
+          //   <p className="cursor-pointer">Sponsors</p>
+          // </Link>
           <a href="https://bit.ly/Hack-LBW-2024" target="_blank">
             <p className="my-5 text-sm cursor-pointer">Hackathon</p>
           </a>
@@ -70,9 +70,9 @@ function HeaderNav() {
               <p className="my-5 text-base cursor-pointer">Speaker</p>
             </Link>
 
-            <Link to="sponsor" smooth={true} duration={500}>
-              <p className="my-5 text-base cursor-pointer">Sponsors</p>
-            </Link>
+            // <Link to="sponsor" smooth={true} duration={500}>
+            //   <p className="my-5 text-base cursor-pointer">Sponsors</p>
+            // </Link>
 
             <a href="https://bit.ly/Hack-LBW-2024" target="_blank">
               <p className="my-5 text-base cursor-pointer">Hackathon</p>
