@@ -28,7 +28,8 @@ export default function Home() {
       {/* <Speakers /> */}
 
       <EventSchedule />
-      <Sponsor />
+        {/*<Sponsor /> */}
+
       <Calender />
       <Footer />
     </Fragment>
