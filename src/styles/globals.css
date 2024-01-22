@@ -1,22 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  background-color: #01010F;
+  font-family: "Prompt", sans-serif;
+  color: #131313 !important;
+}
+
+h3 {
   font-family: "Red Hat Display", sans-serif;
 }
 
-.linear {
-  background-image: url("../../public/images/bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+h1 {
+  font-family: "Bungee Shade";
 }
 
 #hero {
-  background-image: url("../../public/images/background.png");
+  background-image: url("../../public/images/background-image.png");
+  /* background-size: contain; */
+  background-position: center;
+  background-color: #2D2D2D;
+}
+
+#footer {
+  background-image: url("../../public/images/footer-img.png");
   /* background-size: contain; */
   background-position: center;
 }
