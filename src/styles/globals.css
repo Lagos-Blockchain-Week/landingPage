@@ -18,14 +18,14 @@ h1 {
 }
 
 #hero {
-  background-image: url("../../public/images/background-image.png");
+  background-image: url("../assets/background-image.png");
   /* background-size: contain; */
   background-position: center;
   background-color: #2D2D2D;
 }
 
 #footer {
-  background-image: url("../../public/images/footer-img.png");
+  background-image: url("../assets/footer-img.png");
   /* background-size: contain; */
   background-position: center;
 }
@@ -64,7 +64,7 @@ h1 {
   top: 0;
   /* Stay at the top */
   left: 0;
-  background-color: #000000;
+  background-color: #2D2D2D;
   color: #fdf8e2;
   /* Black*/
   overflow-x: hidden;

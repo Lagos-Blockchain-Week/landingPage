@@ -36,8 +36,8 @@ export default function Home() {
       </div>
 
       <EventSchedule />
-      <Patners />
-      <Sponsor />
+      {/* <Patners />
+      <Sponsor /> */}
       <Footer />
     </Fragment>
   );

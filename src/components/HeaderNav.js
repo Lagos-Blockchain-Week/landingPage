@@ -33,7 +33,7 @@ function HeaderNav() {
               <p className="cursor-pointer">Speaker</p>
             </Link>
             <Link to="speaker" smooth={true} duration={500}>
-              <p className="cursor-pointer">Patners</p>
+              <p className="cursor-pointer">Partners</p>
             </Link>
             <Link to="speaker" smooth={true} duration={500}>
               <p className="cursor-pointer">Made in Africa</p>
@@ -69,7 +69,7 @@ function HeaderNav() {
               </Link>
 
               <Link to="speaker" smooth={true} duration={500}>
-                <p className="my-5 text-base cursor-pointer">Patners</p>
+                <p className="my-5 text-base cursor-pointer">Partners</p>
               </Link>
               <Link to="speaker" smooth={true} duration={500}>
                 <p className="my-5 text-base cursor-pointer">Made in Africa</p>
