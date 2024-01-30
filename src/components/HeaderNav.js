@@ -21,7 +21,7 @@ function HeaderNav() {
       <header className=" flex justify-center w-full bg-transparent text-white">
         {/* items-center justify-between edit this */}
         <div className="lg:py-2 py-4 px-4 flex items-center justify-between lg:w-[70%] w-[89%]  border-solid rounded-2xl border-white border-[1px]">
-          <p className="mr-[64px] cursor-pointer">LBW</p>
+          <p className="mr-[64px] cursor-pointer">#LBW2024</p>
           <div className="lg:flex hidden items-center gap-x-8 text-sm">
             <a href="https://bit.ly/Hack-LBW-2024" target="_blank">
               <p className="my-5 text-sm cursor-pointer">Hackathon</p>
@@ -36,7 +36,7 @@ function HeaderNav() {
               <p className="cursor-pointer">Partners</p>
             </Link>
             <Link to="speaker" smooth={true} duration={500}>
-              <p className="cursor-pointer">Made in Africa</p>
+              <p className="cursor-pointer">Start-up</p>
             </Link>
             <a href="https://bit.ly/LBW-BECOMEASPONSOR" target="_blank" className="cursor-pointer ml-[64px] py-3 px-12 text-[#000000] text-xl font-bold  bg-white rounded">Sponsor Us</a>
           </div>
@@ -72,7 +72,7 @@ function HeaderNav() {
                 <p className="my-5 text-base cursor-pointer">Partners</p>
               </Link>
               <Link to="speaker" smooth={true} duration={500}>
-                <p className="my-5 text-base cursor-pointer">Made in Africa</p>
+                <p className="my-5 text-base cursor-pointer">Start-up</p>
               </Link>
 
 

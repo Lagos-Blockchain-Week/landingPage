@@ -10,7 +10,7 @@ import { Inter } from "next/font/google";
 import { Fragment } from "react";
 import ProgramTrack from "@/components/ProgramTrack";
 import EventSchedule from "@/components/EventSchedule";
-import Patners from "@/components/Patners";
+import Partners from "@/components/Partners";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,10 +21,10 @@ export default function Home() {
       <HeaderNav />
       <Section />
 
-      <div className=" lg:mx-[50px] mx-4 mt-[100px] flex flex-col">
+       {/* <div className=" lg:mx-[50px] mx-4 mt-[100px] flex flex-col">
         <h3 className="font-bold text-[30px]">Join us at</h3>
         <img src="./images/join-us.png" className="rounded-md mt-4" alt="" />
-      </div>
+      </div>  */}
       <ProgramTrack />
       {/* <Speakers /> */}
       <div className="mt-[100px] relative">
