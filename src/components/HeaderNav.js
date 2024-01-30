@@ -36,7 +36,7 @@ function HeaderNav() {
               <p className="cursor-pointer">Partners</p>
             </Link>
             <Link to="speaker" smooth={true} duration={500}>
-              <p className="cursor-pointer">Start-up</p>
+              <p className="cursor-pointer">Pitch</p>
             </Link>
             <a href="https://bit.ly/LBW-BECOMEASPONSOR" target="_blank" className="cursor-pointer ml-[64px] py-3 px-12 text-[#000000] text-xl font-bold  bg-white rounded">Sponsor Us</a>
           </div>
