@@ -1,11 +1,14 @@
 
-import { Link } from "react-scroll/modules"
+import { Link as Scroll } from "react-scroll/modules"
 import React from "react";
+import Link from 'next/link'
+import { useRouter } from "next/router";
 
 
 
 function HeaderNav() {
-
+  const router = useRouter()
+  console.log(router)
   const openNav = () => {
     document.getElementById("mySidenav").style.width = "100%";
 
@@ -16,31 +19,31 @@ function HeaderNav() {
   };
 
   return (
-    <div id="hero" className="pt-10">
+    <div id={router.pathname === '/' ? "hero" : null} className="pt-10">
       <header className=" flex justify-center w-full bg-transparent text-white">
         {/* items-center justify-between edit this */}
         <div className="lg:py-2 py-4 px-4 flex items-center justify-between lg:w-[70%] w-[89%]  border-solid rounded-2xl border-white border-[1px]">
 
-          <Link href="/">
+          <Link href={"/"}>
             <p className="mr-[64px] cursor-pointer font-bold">#LBW2024</p>
           </Link>
           <div className="lg:flex hidden items-center gap-x-8 text-sm">
-            <Link href="/hackathon">
+            <Link href={"/hackathon"}>
               <p className="my-5 text-sm cursor-pointer">Hackathon</p>
             </Link>
-            <Link to="schedule" smooth={true} duration={500}>
+            <Scroll to="schedule" smooth={true} duration={500}>
               <p className="cursor-pointer">Schedule</p>
-            </Link>
-            <Link to="speaker" smooth={true} duration={500}>
+            </Scroll>
+            <Scroll to="speaker" smooth={true} duration={500}>
               <p className="cursor-pointer">Speaker</p>
-            </Link>
-            <Link to="speaker" smooth={true} duration={500}>
+            </Scroll>
+            {/* <Scroll to="speaker" smooth={true} duration={500}>
               <p className="cursor-pointer">Partners</p>
-            </Link>
-            <Link to="speaker" smooth={true} duration={500}>
+            </Scroll> */}
+            <Scroll to="speaker" smooth={true} duration={500}>
               <p className="cursor-pointer">Pitch</p>
-            </Link>
-            <a href="https://bit.ly/LBW-BECOMEASPONSOR" target="_blank" className="cursor-pointer ml-[64px] py-3 px-12 text-[#000000] text-lg font-bold  bg-white rounded">Sponsor Us</a>
+            </Scroll>
+            <a href="https://bit.ly/LBW-BECOMEASPONSOR" target="_blank" className="cursor-pointer ml-[64px] py-3 px-12 text-[#000000] text-lg  bg-white rounded">Register For Event</a>
           </div>
           <img
             onClick={() => openNav()}
@@ -62,25 +65,23 @@ function HeaderNav() {
               <a href="https://bit.ly/Hack-LBW-2024" target="_blank">
                 <p className="my-5 text-base cursor-pointer">Hackathon</p>
               </a>
-              <Link to="schedule" smooth={true} duration={500}>
+              <Scroll to="schedule" smooth={true} duration={500}>
                 <p className="my-5 text-base cursor-pointer">Schedule</p>
-              </Link>
+              </Scroll>
 
-              <Link to="speaker" smooth={true} duration={500}>
+              <Scroll to="speaker" smooth={true} duration={500}>
                 <p className="my-5 text-base cursor-pointer">Speaker</p>
-              </Link>
+              </Scroll>
 
-              <Link to="speaker" smooth={true} duration={500}>
+              <Scroll to="speaker" smooth={true} duration={500}>
                 <p className="my-5 text-base cursor-pointer">Partners</p>
-              </Link>
-              <Link to="speaker" smooth={true} duration={500}>
+              </Scroll>
+              <Scroll to="speaker" smooth={true} duration={500}>
                 <p className="my-5 text-base cursor-pointer">Start-up</p>
-              </Link>
-
+              </Scroll>
 
               <a href="https://bit.ly/LBW-BECOMEASPONSOR" target="_blank">
-                <p className="cursor-pointer  text-center py-5 px-12 text-[#000000] text-xl font-bold  bg-white rounded">Sponsor Us</p>
-
+                <p className="cursor-pointer  text-center py-5 px-12 text-[#000000] text-xl font-bold  bg-white rounded">Register For Event</p>
               </a>
             </div>
           </div>
