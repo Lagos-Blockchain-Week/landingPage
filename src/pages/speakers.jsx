@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import HeaderNav from '@/components/HeaderNav';
 import Sponsor from '@/components/Sponsor';
 import Partners from '@/components/Partners';
@@ -7,7 +7,9 @@ import Join from '@/components/Join';
 
 const speakers = () => {
   return (
-    <div>
+    <Fragment>
+      <title>Lagos BlockChain Week | Speakers</title>
+
       <img src="./images/speakers-hero.png" alt="" />
       <div className='absolute top-0 w-full'>
         <HeaderNav />
@@ -77,7 +79,7 @@ const speakers = () => {
       <Partners />
       <Join />
       <Footer />
-    </div>
+    </Fragment>
   );
 };
 

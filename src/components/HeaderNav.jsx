@@ -31,9 +31,9 @@ function HeaderNav() {
             <Link href={"/hackathon"}>
               <p className="my-5 text-sm cursor-pointer">Hackathon</p>
             </Link>
-            <Scroll to="schedule" smooth={true} duration={500}>
+            <Link href={"/schedule"}>
               <p className="cursor-pointer">Schedule</p>
-            </Scroll>
+            </Link>
             <Link href={"/speakers"}>
               <p className="cursor-pointer">Speaker</p>
             </Link>
@@ -65,9 +65,9 @@ function HeaderNav() {
               <Link href={"/hackathon"}>
                 <p className="my-5 text-base cursor-pointer">Hackathon</p>
               </Link>
-              <Scroll to="schedule" smooth={true} duration={500}>
+              <Link href={"/schedule"}>
                 <p className="my-5 text-base cursor-pointer">Schedule</p>
-              </Scroll>
+              </Link>
 
               <Link href={"/speakers"}>
                 <p className="my-5 text-base cursor-pointer">Speaker</p>
