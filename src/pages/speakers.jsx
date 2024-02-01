@@ -10,7 +10,7 @@ const speakers = () => {
     <Fragment>
       <title>Lagos BlockChain Week | Speakers</title>
 
-      <img src="./images/speakers-hero.png"  className='sm:h-[80vh] object-cover'  alt="" />
+      <img src="./images/speakers-hero.png" className='sm:h-[80vh] object-cover' alt="" />
       <div className='absolute top-0 w-full'>
         <HeaderNav />
         <section className="text-white text-center lg:h-[60vh] lg:p-32 p-6 sm:py-16">
@@ -32,10 +32,10 @@ const speakers = () => {
           </div>
         </section>
       </div>
-      <div className='-mt-32'>
+      {/* <div className='-mt-32'>
         <Sponsor />
-      </div>
-      <section className='p-10'>
+      </div> */}
+      {/* <section className='p-10'>
         <h3 className="font-bold mb-6 text-[30px]">Meet Our Speakers</h3>
         <div className='flex flex-wrap justify-between'>
           <div className='rounded-md bg-[#061620] p-4 w-[23%]'>
@@ -76,7 +76,8 @@ const speakers = () => {
           </button>
         </div>
       </section>
-      <Partners />
+      <Partners /> */}
+
       <Join />
       <Footer />
     </Fragment>

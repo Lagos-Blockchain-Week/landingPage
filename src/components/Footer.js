@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
@@ -8,7 +9,7 @@ function Footer() {
       <div className="flex flex-col">
         <p className="font-medium mb-3">Policy</p>
 
-        <p className="">Privacy Policy</p>
+        <Link href={"/privacy-policy"}><p className="">Privacy Policy</p></Link>
         {/* <p className="">Community Managers</p>
         <p className="">Developers</p>
         <p className="">Designers</p>
@@ -26,12 +27,12 @@ function Footer() {
       <div className="flex flex-col">
         <p className="font-medium mb-3">Resources</p>
         {/* <p className="">about</p> */}
-        <p className="">blog</p>
+        <p className="">Blog</p>
         <a href="mailto:info@lagosblockchainweek.io">
-        <p className="">Contact Us</p></a>
-        
+          <p className="">Contact Us</p></a>
 
-        
+
+
       </div>
 
       {/* <div className="flex flex-col">
