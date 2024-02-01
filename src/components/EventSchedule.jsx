@@ -100,7 +100,7 @@ function EventSchedule() {
             </div>
             <div className='border-r border-[#8D8D8D]'></div>
             <div className='w-[48%]'>
-              <p className='text-center'>Beginner's guide to cryptocurrencies/Understanding DeFi Protocols</p>
+              <p className='text-center'>Beginners guide to cryptocurrencies/Understanding DeFi Protocols</p>
             </div>
             <div className='border-r border-[#8D8D8D]'></div>
             <div className='w-[25%]'>
