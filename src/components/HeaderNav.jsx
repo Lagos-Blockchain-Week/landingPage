@@ -34,16 +34,16 @@ function HeaderNav() {
             <Scroll to="schedule" smooth={true} duration={500}>
               <p className="cursor-pointer">Schedule</p>
             </Scroll>
-            <Scroll to="speaker" smooth={true} duration={500}>
+            <Link href={"/speakers"}>
               <p className="cursor-pointer">Speaker</p>
-            </Scroll>
+            </Link>
             {/* <Scroll to="speaker" smooth={true} duration={500}>
               <p className="cursor-pointer">Partners</p>
             </Scroll> */}
             <Scroll to="speaker" smooth={true} duration={500}>
               <p className="cursor-pointer">Pitch</p>
             </Scroll>
-            <a href="https://bit.ly/LBW-BECOMEASPONSOR" target="_blank" className="cursor-pointer ml-[64px] py-3 px-12 text-[#000000] text-lg  bg-white rounded">Register For Event</a>
+            <a href="https://bit.ly/LBW-BECOMEASPONSOR" target="_blank" className="cursor-pointer ml-[64px] py-3 px-12 text-[#000000] text-sm  bg-white rounded">Register For Event</a>
           </div>
           <img
             onClick={() => openNav()}
@@ -62,22 +62,19 @@ function HeaderNav() {
               </p>
               <div className="pt-20"></div>
 
-              <a href="https://bit.ly/Hack-LBW-2024" target="_blank">
+              <Link href={"/hackathon"}>
                 <p className="my-5 text-base cursor-pointer">Hackathon</p>
-              </a>
+              </Link>
               <Scroll to="schedule" smooth={true} duration={500}>
                 <p className="my-5 text-base cursor-pointer">Schedule</p>
               </Scroll>
 
-              <Scroll to="speaker" smooth={true} duration={500}>
+              <Link href={"/speakers"}>
                 <p className="my-5 text-base cursor-pointer">Speaker</p>
-              </Scroll>
+              </Link>
 
               <Scroll to="speaker" smooth={true} duration={500}>
-                <p className="my-5 text-base cursor-pointer">Partners</p>
-              </Scroll>
-              <Scroll to="speaker" smooth={true} duration={500}>
-                <p className="my-5 text-base cursor-pointer">Start-up</p>
+                <p className="my-5 text-base cursor-pointer">Pitch</p>
               </Scroll>
 
               <a href="https://bit.ly/LBW-BECOMEASPONSOR" target="_blank">
