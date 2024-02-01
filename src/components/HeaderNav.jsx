@@ -6,7 +6,6 @@ import React from "react";
 
 function HeaderNav() {
 
-
   const openNav = () => {
     document.getElementById("mySidenav").style.width = "100%";
 
@@ -21,11 +20,14 @@ function HeaderNav() {
       <header className=" flex justify-center w-full bg-transparent text-white">
         {/* items-center justify-between edit this */}
         <div className="lg:py-2 py-4 px-4 flex items-center justify-between lg:w-[70%] w-[89%]  border-solid rounded-2xl border-white border-[1px]">
-          <p className="mr-[64px] cursor-pointer font-bold">#LBW2024</p>
+
+          <Link href="/">
+            <p className="mr-[64px] cursor-pointer font-bold">#LBW2024</p>
+          </Link>
           <div className="lg:flex hidden items-center gap-x-8 text-sm">
-            <a href="https://bit.ly/Hack-LBW-2024" target="_blank">
+            <Link href="/hackathon">
               <p className="my-5 text-sm cursor-pointer">Hackathon</p>
-            </a>
+            </Link>
             <Link to="schedule" smooth={true} duration={500}>
               <p className="cursor-pointer">Schedule</p>
             </Link>
