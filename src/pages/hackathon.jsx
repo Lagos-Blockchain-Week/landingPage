@@ -8,7 +8,7 @@ const hackathon = () => {
     <Fragment>
       <title>Lagos BlockChain Week | Hackathon</title>
 
-      <img src="./images/hackthon-hero.png" alt="" />
+      <img src="./images/hackthon-hero.png" className='sm:h-[80vh] object-cover' alt="" />
       <div className='absolute top-0 w-full'>
         <HeaderNav />
         <section className="text-white text-center lg:h-[60vh] lg:p-32 p-6 sm:py-16">

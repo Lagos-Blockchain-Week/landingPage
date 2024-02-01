@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 
 function HeaderNav() {
   const router = useRouter()
-  console.log(router)
+
   const openNav = () => {
     document.getElementById("mySidenav").style.width = "100%";
 
