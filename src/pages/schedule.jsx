@@ -11,7 +11,7 @@ const schedule = () => {
       <div className='absolute top-0 w-full'>
         <HeaderNav />
         <section className="text-white text-center lg:h-[60vh]  lg:p-32 p-6 sm:py-16">
-          <p>Held in the picturesque city of Lagos, PBW is a week-long <br /> blockchainextravaganza, made up of exhibitions, keynotes, workshops, <br /> networking events,and more. See the full schedule below.</p>
+          <p>Held in the picturesque city of Lagos, LBW is a week-long <br /> blockchainextravaganza, made up of exhibitions, keynotes, workshops, <br /> networking events,and more. See the full schedule below.</p>
           <div className="lg:flex justify-center mt-10">
             <button className="flex p-4 sm:w-full lg:mr-10 border justify-center rounded-md bg-white text-[#131313] px-10">
               <p className="mr-2 my-auto">Register for Hackathon</p>

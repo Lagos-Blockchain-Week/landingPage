@@ -162,23 +162,6 @@ function EventSchedule() {
             </div>
             <div className='border-r border-[#8D8D8D]'></div>
             <div className='w-[48%]'>
-              <p className='text-center'>Introduction to Bitcoin and Blockchain</p>
-            </div>
-            <div className='border-r border-[#8D8D8D]'></div>
-            <div className='w-[25%]'>
-              <p className=' text-center'></p>
-            </div>
-            <div className='border-r border-[#8D8D8D]'></div>
-            <div className='w-[10%]'>
-              <p className=' text-center'></p>
-            </div>
-          </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
-            <div className='w-[20%]'>
-              <p className=''></p>
-            </div>
-            <div className='border-r border-[#8D8D8D]'></div>
-            <div className='w-[48%]'>
               <p className='text-center'>Virtual Reality (VR) Creation Workshop</p>
             </div>
             <div className='border-r border-[#8D8D8D]'></div>
@@ -190,6 +173,8 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
+         
+         
           <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>

@@ -18,7 +18,7 @@ h1 {
 }
 
 #hero {
-  background-image: url("../assets/background-image.png");
+  background-image: url("../../public/background-image.png");
   /* background-size: contain; */
   background-position: center;
   background-color: #2D2D2D;
