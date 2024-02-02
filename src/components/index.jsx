@@ -66,7 +66,7 @@ const SchedulePage = () => {
                     className="leading-[120.00%] max-w-[802px] md:max-w-full text-2xl md:text-[22px] text-center sm:text-xl text-yellow-50_01 tracking-[-0.48px]"
                     size="txtPromptRegular24"
                   >
-                    Held in the picturesque city of Lagos, PBW is a week-long
+                    Held in the picturesque city of Lagos, LBW is a week-long
                     blockchainextravaganza, made up of exhibitions, keynotes,
                     workshops, networking events,and more. See the full schedule
                     below.

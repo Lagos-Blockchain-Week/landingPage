@@ -157,16 +157,16 @@ const SponsorForm = () => {
                 <hr/>
             </label>
             <label className="block mb-2">
-                <span className="text-gray-700">Lagos Blockchain Week is committed to protecting and respecting your privacy, and we’ll only use your personal information to provide information on our products and services.</span>
-                <input
-                 type="text"
+               <input
+                 type="checkbox"
                  value={consent}
                  onChange={(e) => setConsent(e.target.value)}
-                 className="form-input mt-1 block w-full"
+                 className="mr-2 leading-tight"
                  required
                 />
-                <hr/>
+                <span className="text-gray-700">Lagos Blockchain Week is committed to protecting and respecting your privacy, and we will only use your personal information to provide information on our products and services.</span>
             </label>
+            <br/>
             <label className="block mb-2">
                 <input
                  type="checkbox"
