@@ -12,6 +12,7 @@ import EventSchedule from "@/components/EventSchedule";
 import Partners from "@/components/Partners";
 import Join from "@/components/Join";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {

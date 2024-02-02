@@ -1,5 +1,7 @@
 import React from "react";
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
+import SponsorForm from "./forms/SponsorForm";
 
 function Section() {
   return (
@@ -20,12 +22,14 @@ function Section() {
               <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
             </svg>
           </button>
+          <Link to={"/sponsorform"}>
           <button className="flex p-4 sm:w-full sm:mt-4 justify-center rounded-md border border-white border-b-4 px-10">
             <p className="mr-2 my-auto">Become a Sponsor</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
               <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
             </svg>
           </button>
+          </Link>
         </div>
       </section>
 
