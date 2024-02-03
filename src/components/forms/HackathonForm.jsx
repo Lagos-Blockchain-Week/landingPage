@@ -223,7 +223,7 @@ const HackathonForm = () => {
       </label>
       <br/>
       <label className="block mb-2">
-        <span className="text-gray-700 font-bold">Please tell us why you're interested in Hackathon 2024 </span>
+        <span className="text-gray-700 font-bold">Please tell us why youre interested in Hackathon 2024 </span>
         <input
           type="text"
           value={tellUsWhy}

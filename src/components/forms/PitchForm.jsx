@@ -77,7 +77,7 @@ const PitchForm = () => {
     return (
         <form onSubmit={handleSubmit} className="max-w-md mx-auto p-4 bg-black shadow-md rounded-md">
             <label className="block m-4 text-gray-800 text-center">
-                <span className="font-bold text-lg "> #LBW2024 Founder's Pitch registration</span>
+                <span className="font-bold text-lg "> #LBW2024 Founders Pitch registration</span>
             </label>
             <br/>
             <label className="block mb-2">
@@ -153,7 +153,7 @@ const PitchForm = () => {
             </label>
             <br/>
             <label className="block mb-2">
-                <span className="text-gray-700 font-bold">Founder's Bio:</span>
+                <span className="text-gray-700 font-bold">Founders Bio:</span>
                 <input
                   type="text"
                   value={founderBio}

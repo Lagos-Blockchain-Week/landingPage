@@ -69,7 +69,7 @@ const SpeakerForm = () => {
     return (
         <form onSubmit={handleSubmit} className="max-w-md mx-auto p-4 bg-black shadow-md rounded-md">
             <label className="block m-4 text-gray-800 text-center">
-                <span className="font-bold text-lg "> #LBW2024 Speaker's registration</span>
+                <span className="font-bold text-lg "> #LBW2024 Speakers registration</span>
             </label>
             <br/>
             <label className="block mb-2">
