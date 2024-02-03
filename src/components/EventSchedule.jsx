@@ -26,7 +26,7 @@ function EventSchedule() {
 
       <div>
         <div className='mt-6 border border-[#FFFCE1] rounded-md p-3'>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className='font-bold'>6th May</p>
             </div>
@@ -43,7 +43,7 @@ function EventSchedule() {
               <p className='font-bold text-center'>Time</p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''>Crypto 101 Conference</p>
             </div>
@@ -60,7 +60,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -77,7 +77,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -94,7 +94,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -111,7 +111,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between  p-4 text-sm'>
+          <div className='flex justify-between  lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -139,7 +139,7 @@ function EventSchedule() {
 
       <div>
         <div className='mt-6 border border-[#FFFCE1] rounded-md p-3'>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className='font-bold'>7th May</p>
             </div>
@@ -156,7 +156,7 @@ function EventSchedule() {
               <p className='font-bold text-center'>Time</p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''>Creator Convergence Expo</p>
             </div>
@@ -175,7 +175,7 @@ function EventSchedule() {
           </div>
          
          
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -192,7 +192,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -209,7 +209,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between  p-4 text-sm'>
+          <div className='flex justify-between  lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -237,7 +237,7 @@ function EventSchedule() {
 
       <div>
         <div className='mt-6 border border-[#FFFCE1] rounded-md p-3'>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className='font-bold'>8th May</p>
             </div>
@@ -254,9 +254,9 @@ function EventSchedule() {
               <p className='font-bold text-center'>Time</p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
-              <p className=''>Innovation Across Borders(Pitch/VC Fund Day) </p>
+              <p className=''>Innovation Across Borders(Pitch / VC Fund Day) </p>
             </div>
             <div className='border-r border-[#8D8D8D]'></div>
             <div className='w-[48%]'>
@@ -271,7 +271,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -288,7 +288,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -305,7 +305,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -322,7 +322,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between  p-4 text-sm'>
+          <div className='flex justify-between  lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -350,7 +350,7 @@ function EventSchedule() {
 
       <div>
         <div className='mt-6 border border-[#FFFCE1] rounded-md p-3'>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className='font-bold'>9th May</p>
             </div>
@@ -367,7 +367,7 @@ function EventSchedule() {
               <p className='font-bold text-center'>Time</p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''>DWeb Storage Expo </p>
             </div>
@@ -384,7 +384,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -401,7 +401,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -418,7 +418,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -435,7 +435,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between  p-4 text-sm'>
+          <div className='flex justify-between  lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -463,7 +463,7 @@ function EventSchedule() {
 
       <div>
         <div className='mt-6 border border-[#FFFCE1] rounded-md p-3'>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className='font-bold'>10th May</p>
             </div>
@@ -480,7 +480,7 @@ function EventSchedule() {
               <p className='font-bold text-center'>Time</p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''>Web3 BuiDLers Workshop </p>
             </div>
@@ -497,7 +497,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -514,7 +514,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -531,7 +531,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -548,7 +548,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between  p-4 text-sm'>
+          <div className='flex justify-between  lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -576,7 +576,7 @@ function EventSchedule() {
 
       <div>
         <div className='mt-6 border border-[#FFFCE1] rounded-md p-3'>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className='font-bold'>11th May</p>
             </div>
@@ -593,7 +593,7 @@ function EventSchedule() {
               <p className='font-bold text-center'>Time</p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''>Web3 BuiDLers Summit</p>
             </div>
@@ -610,7 +610,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -627,7 +627,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -644,7 +644,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between border-b border-[#8D8D8D] p-4 text-sm'>
+          <div className='flex justify-between border-b border-[#8D8D8D] lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
@@ -661,7 +661,7 @@ function EventSchedule() {
               <p className=' text-center'></p>
             </div>
           </div>
-          <div className='flex justify-between  p-4 text-sm'>
+          <div className='flex justify-between  lg:p-4 sm:py-4 sm:text-[8px] text-sm'>
             <div className='w-[20%]'>
               <p className=''></p>
             </div>
