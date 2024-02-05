@@ -28,8 +28,13 @@ function HeaderNav() {
             <p className="mr-[64px] cursor-pointer font-bold">#LBW2024</p>
           </Link>
           <div className="lg:flex hidden items-center gap-x-8 text-sm">
-            <Link href={"/hackathon"}>
+{/*             <Link href={"/hackathon"}>
               <p className="my-5 text-sm cursor-pointer">Hackathon</p>
+            </Link> */}
+            <Link href={"/hackathon"}>
+            <a href="https://forms.gle/6skQXy2SaqfBWHvW6">
+            <p className="my-5 text-sm cursor-pointer">Hackathon</p>
+            </a>
             </Link>
             <Link href={"/schedule"}>
               <p className="cursor-pointer">Schedule</p>
@@ -43,7 +48,7 @@ function HeaderNav() {
             <Scroll to="speaker" smooth={true} duration={500}>
               <p className="cursor-pointer">Pitch</p>
             </Scroll>
-            <a href="https://bit.ly/LBW-BECOMEASPONSOR" target="_blank" className="cursor-pointer ml-[64px] py-3 px-12 text-[#000000] text-sm  bg-white rounded">Register For Event</a>
+            <a href="https://forms.gle/6NZxQFzXuSRm63uC8" target="_blank" className="cursor-pointer ml-[64px] py-3 px-12 text-[#000000] text-sm  bg-white rounded">Register For Event</a>
           </div>
           <img
             onClick={() => openNav()}
@@ -77,7 +82,7 @@ function HeaderNav() {
                 <p className="my-5 text-base cursor-pointer">Pitch</p>
               </Scroll>
 
-              <a href="https://bit.ly/LBW-BECOMEASPONSOR" target="_blank">
+              <a href="https://forms.gle/6skQXy2SaqfBWHvW6" target="_blank">
                 <p className="cursor-pointer  text-center py-5 px-12 text-[#000000] text-xl font-bold  bg-white rounded">Register For Event</p>
               </a>
             </div>
