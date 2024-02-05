@@ -25,29 +25,27 @@ function HeaderNav() {
         <div className="lg:py-2 py-4 px-4 flex items-center justify-between lg:w-[70%] w-[89%]  border-solid rounded-2xl border-white border-[1px]">
 
           <Link href={"/"}>
-            <p className="mr-[64px] cursor-pointer font-bold">#LBW2024</p>
+            <p className="mr-[64px] cursor-pointer font-bold hover:underline">#LBW2024</p>
           </Link>
           <div className="lg:flex hidden items-center gap-x-8 text-sm">
 {/*             <Link href={"/hackathon"}>
               <p className="my-5 text-sm cursor-pointer">Hackathon</p>
             </Link> */}
             <Link href={"/hackathon"}>
-            <a href="https://forms.gle/6skQXy2SaqfBWHvW6">
-            <p className="my-5 text-sm cursor-pointer">Hackathon</p>
-            </a>
+            <p className="my-5 text-sm cursor-pointer hover:underline">Hackathon</p> 
             </Link>
             <Link href={"/schedule"}>
-              <p className="cursor-pointer">Schedule</p>
+              <p className="cursor-pointer hover:underline">Schedule</p>
             </Link>
             <Link href={"/speakers"}>
-              <p className="cursor-pointer">Speaker</p>
+              <p className="cursor-pointer hover:underline">Speaker</p>
             </Link>
             {/* <Scroll to="speaker" smooth={true} duration={500}>
               <p className="cursor-pointer">Partners</p>
             </Scroll> */}
-            <Scroll to="speaker" smooth={true} duration={500}>
-              <p className="cursor-pointer">Pitch</p>
-            </Scroll>
+            {/* <Scroll to="speaker" smooth={true} duration={500}> */}
+              <a href="https://forms.gle/PzhS6GDZzPP2ZH3f8" target="_blank"><p className="cursor-pointer hover:underline">Pitch</p></a>
+            
             <a href="https://forms.gle/6NZxQFzXuSRm63uC8" target="_blank" className="cursor-pointer ml-[64px] py-3 px-12 text-[#000000] text-sm  bg-white rounded">Register For Event</a>
           </div>
           <img
