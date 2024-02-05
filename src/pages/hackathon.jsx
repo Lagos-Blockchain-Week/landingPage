@@ -41,7 +41,7 @@ const hackathon = () => {
         <h3 className="font-bold mb-6 text-[30px]">The LBW Hackathon</h3>
         <div className='lg:flex justify-between rounded-md text-white p-6' id='hero'>
           <div>
-            <p className='py-20 text-2xl'>LBW Hackathon</p>
+            <p className='py-20 text-2xl'>Blockchain Interoperability Hackathon</p>
             <button className="flex p-4 sm:w-full sm:mt-4 justify-center text-[#131313] rounded-md border bg-white px-8">
              <p className="mr-2 my-auto"> Register <a href="https://forms.gle/Hz5RV1NCxZNfGbWQ6"></a> </p>
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
