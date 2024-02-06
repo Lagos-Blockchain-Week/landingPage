@@ -80,7 +80,7 @@ function HeaderNav() {
                 <p className="my-5 text-base cursor-pointer">Pitch</p>
               </Scroll>
 
-              <a href="https://forms.gle/6skQXy2SaqfBWHvW6" target="_blank">
+              <a href="https://lu.ma/icnl3ym9" target="_blank">
                 <p className="cursor-pointer  text-center py-5 px-12 text-[#000000] text-xl font-bold  bg-white rounded">Register For Event</p>
               </a>
             </div>
