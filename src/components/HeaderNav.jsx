@@ -46,7 +46,7 @@ function HeaderNav() {
             {/* <Scroll to="speaker" smooth={true} duration={500}> */}
               <a href="https://forms.gle/PzhS6GDZzPP2ZH3f8" target="_blank"><p className="cursor-pointer hover:underline">Pitch</p></a>
             
-            <a href="https://forms.gle/6NZxQFzXuSRm63uC8" target="_blank" className="cursor-pointer ml-[64px] py-3 px-12 text-[#000000] text-sm  bg-white rounded">Register For Event</a>
+            <a href="https://lu.ma/icnl3ym9" target="_blank" className="cursor-pointer ml-[64px] py-3 px-12 text-[#000000] text-sm  bg-white rounded">Register For Event</a>
           </div>
           <img
             onClick={() => openNav()}
