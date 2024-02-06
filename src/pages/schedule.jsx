@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import HeaderNav from '@/components/HeaderNav';
 import EventSchedule from '@/components/EventSchedule';
+import Footer from '@/components/Footer';
 
 const schedule = () => {
   return (
@@ -33,6 +34,7 @@ const schedule = () => {
       <section>
         <EventSchedule />
       </section>
+      <Footer/>
     </Fragment>
   );
 };
